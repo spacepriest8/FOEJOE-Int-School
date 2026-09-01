@@ -117,8 +117,8 @@ body {
   border: 1px solid #eaddc7;
   border-radius: 8px;
   padding: 22px;
-  flex: 1 1 220px;
-  max-width: 260px;
+  flex: 1 1 200px;
+  max-width: 220px;
   text-align: left;
 }
 
@@ -131,25 +131,6 @@ body {
 .card p {
   color: #4a4038;
   font-size: 14px;
-}
-
-/* Why Us */
-.why-us {
-  padding: 50px 30px;
-  text-align: center;
-  background-color: #faf7f2;
-}
-
-.why-us h2 {
-  font-size: 26px;
-  color: #6b2c2f;
-  margin-bottom: 15px;
-}
-
-.why-us .intro {
-  max-width: 650px;
-  margin: 0 auto 40px auto;
-  color: #4a4038;
 }
 
 /* Admission Form */
