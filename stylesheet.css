@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #2b2118;
+  background-color: #faf7f2;
+  line-height: 1.6;
+}
+
+/* Header */
+.site-header {
+  background-color: #6b2c2f;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.site-header h1 {
+  font-size: 28px;
+}
+
+.site-header .location {
+  font-size: 14px;
+  opacity: 0.85;
+  margin-top: 4px;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  padding: 50px 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hero-text {
+  flex: 1 1 300px;
+}
+
+.hero-text h2 {
+  font-size: 30px;
+  color: #6b2c2f;
+  margin-bottom: 15px;
+}
+
+.hero-text p {
+  font-size: 16px;
+  margin-bottom: 18px;
+  color: #4a4038;
+}
+
+.hero-image {
+  flex: 1 1 300px;
+}
+
+.hero-image img {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #c99a3b;
+  color: #2b2118;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #b2872f;
+}
+
+/* Mission / values */
+.mission {
+  background-color: #ffffff;
+  padding: 50px 30px;
+  text-align: center;
+}
+
+.mission h2 {
+  font-size: 26px;
+  color: #6b2c2f;
+  margin-bottom: 15px;
+}
+
+.mission .intro {
+  max-width: 650px;
+  margin: 0 auto 40px auto;
+  color: #4a4038;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #faf7f2;
+  border: 1px solid #eaddc7;
+  border-radius: 8px;
+  padding: 22px;
+  flex: 1 1 200px;
+  max-width: 220px;
+  text-align: left;
+}
+
+.card h3 {
+  color: #6b2c2f;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.card p {
+  color: #4a4038;
+  font-size: 14px;
+}
+
+/* Admission Form */
+.admission {
+  padding: 50px 30px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.admission h2 {
+  font-size: 28px;
+  color: #6b2c2f;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.admission form {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  border: 1px solid #eaddc7;
+}
+
+.admission label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  color: #2b2118;
+}
+
+.admission input,
+.admission textarea {
+  padding: 10px;
+  border: 1px solid #d8cbb5;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.admission input:focus,
+.admission textarea:focus {
+  outline: 2px solid #6b2c2f;
+  border-color: #6b2c2f;
+}
+
+.admission button {
+  margin-top: 25px;
+  align-self: flex-start;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #6b2c2f;
+  color: #ffffff;
+  text-align: center;
+  padding: 18px;
+  font-size: 14px;
+}
+
+.site-footer p {
+  margin-top: 4px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .hero {
+    text-align: center;
+  }
+  .admission button {
+    align-self: stretch;
+  }
+}
